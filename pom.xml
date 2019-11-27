@@ -3,4 +3,16 @@
   <groupId>com.arvin</groupId>
   <artifactId>jfrog-test</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+      <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>fa7b4efe03db-releases</name>
+        <url>http://localhost:8081/artifactory/test</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>fa7b4efe03db-snapshots</name>
+        <url>http://localhost:8081/artifactory/test</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
